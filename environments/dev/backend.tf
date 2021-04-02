@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = " rebag-project-tfstate"
+    bucket = "rebag-project-tfstate"
     prefix = "env/dev"
   }
 }
